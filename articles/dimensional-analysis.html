@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Dimensional Analysis </title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML">
+</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-panels.min.js"></script>
+		<script src="../js/init.js"></script>
+
+			<link rel="stylesheet" href="../css/skel-noscript.css" />
+			<link rel="stylesheet" href="../css/style2.css" />
+			<link rel="stylesheet" href="../css/style-desktop.css" />
+
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+					  
+						<li class="active"><a href="../index.html">Homepage</a></li>
+
+						
+					</ul>
+				</nav>
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+				  <header>
+					<center><h1><a href="#">Dimensional Analysis</a></h1></center>
+					</header>
+					</div>
+					</div>
+
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+    
+  <p>Let's assume you're from the United States and are used to describing your weight in lbs. Let's also assume that you have a friend from France who is used to describing his/her weight in kilograms (kg). How would you describe to your friend how much you weigh?</p>
+  <br>
+  <p>The problem here is that both of you are using different units: you're using units of lbs and your friend's using units of kg. Like most people in the 21st century, you would google how many lbs are in a kg and would get something like this.</p>
+  <br>
+  <img class=center src="../images/conversion.png" alt="Conversion">
+  <br>
+  <p>What you have just googled is called a <b>conversion factor</b>, which allows you to convert from one unit to another! Let's talk about what exactly a unit is before continuing.</p>
+  <br><br>
+<h7><center>What's in a unit?</center></h7>
+<br>
+<p>A unit is a dimension of either mass, length, time, or some combination. Earlier when we were talking about lbs and kgs, we were using units of mass. When you describe to your friend how much more time you'll be, you're using units of time. When you measure your height, you're using units of length. Throughout your scientific career, you'll undoubtedly come into some more complicated units. Consider the unit for energy, the Joule (J):</p>
+<br>
+<center><p3>`J = (kg*s^2)/m^2`</p3></center>
+<br>
+<p> What that says is that the unit for energy, a Joule, is equivalent to a kg times a second squared all divided by meters squared. Isn't that a crazy unit? Don't worry, we won't deal with anything that complicated yet.</p>
+<br>
+<p> Reviewing fractions and exponents may be of help for understanding a few parts of this post. If you find yourself having trouble with any of the math, check out this post.</p>
+<center><a href="../articles/review-of-math-concepts.html">Review of Math Concepts</a></center>
+
+<br><br>
+<h7><center>Using Dimensional Analysis</center></h7>
+<br>
+<p>Let's return to our earlier example about converting between lbs and kgs. Your poor friend still doesn't know how much you weigh! Before you can tell him, what do these expressions all have in common?</p>
+<br>
+<center><p><font size=5>`5/5`, `x/x`, `(afg)/(afg)`</font></p></center>
+<br>
+<p> That's correct, they all equal 1. How about this one?</p>
+<br>
+<p align=center> `(kg)/(kg)` </p>
+<br>
+<p>Just like before, this equals 1. <font color=red>When performing dimensional analysis, you can multiply and divide units just as if they were variables.</font> For example:</p>
+<br>
+<p align=center>`J/(atm)((atm)/L)`=` J/L`</p>
+<br>
+<p> The atm unit cancels out, leaving just J on top and L on bottom. That's all that dimensional analysis is! Now we can finally tell your friend how much you weigh. Let's say you weigh 130 lbs.</p>
+<br>
+<p align=center> `130&nbsp;lbs((1&nbsp;kg)/(2.2&nbsp;lb))=59&nbsp;kg`</p>
+<br>
+<p>By multiplying our original unit by the conversion factor and cancelling out the units, we now get our weight in kg! Note that you have to multiply the conversion factor in a way that the units cancel out. Here's what not to do:</p>
+<br>
+<p align=center> `130 lbs((2.2&nbsp;lb)/(kg))`=`(286&nbsp;lb^2)/(kg)`</p>
+<br>
+<p> Now you just end up with an answer that makes no sense! What in the world is a `(lb^2)/(kg)`?! When performing dimensional analysis, <b>write the conversion factor to cancel out the unwanted unit</b> Let's do a couple practice conversions.</p>
+<br>
+<p><b>#1. Convert `2&nbsp;atm` to units of `Pa`. The conversion factor is `(101325&nbsp;Pa)/(atm)`</b></p>
+  <p align=center><font color=darkslategrey> Since we want units of Pa (Pascal), we want to write the conversion factor as to cancel out atm (atmospheres). This is done as such: `2&nbsp;atm((101325&nbsp;Pa)/(atm))
+  `=`202650&nbsp;Pa`</font></p>
+  <br>
+<p><b>#2. Convert `(5&nbsp;m)/s^2` to units of `(ft)/(hr^2)` The conversion factors are:`(39.4&nbsp;ft)/m` and `(3600&nbsp;s)/(hr)`</b></p>
+<p align=center><font color=darkslategrey>This one is a bit more tricky as we're dealing with two conversion factors at once, with one of the units squared. Since we want ft (feet) on the top, we want to cancel out the m (meters):</font></p>
+<br>
+<p align=center> `(5&nbsp;m)/s^2((3.3&nbsp;ft)/m)`=`(16.5&nbsp;ft)/s^2`</p>
+<br>
+<p align=center> Now the meters cancel out and we get `(16.5&nbsp;ft)/s^2`. Now we want to convert `s^2`(seconds squared) to `hr^2` (hours squared). Since the units are squared, we have to square the conversion factor.</p>
+<br>
+<p align=center> `(16.5&nbsp;ft)/s^2((3600&nbsp;s)/(hr))^2= (213840000&nbsp;ft)/(hr^2)`</p>
+<br>
+<p>That is a big number! Hopefully you are now able to do basic unit conversions. Note that, in the process of doing dimensional analysis, <font color=red>The actual value of whatever's being converted doesn't change.</font> You will still be the same weight after converting and back (sorry, dimensional analysis won't help you lose weight), you're just expressing the unit in a different scale. In the next section we'll look at how to deal with really big numbers, like the one above, or really small numbers.</p>
+<br><br>
+<h7><center>Performing Operations on Units</center></h7>
+<br>
+<p>Units behave slightly differently from variables in the regard of operations. In variables, we can add x + y together with no problems. With units, there are only certain conditions in which we can do so:</p>
+<br>
+<p align=center><b>Quantities can only be added and subtracted if they are in the same unit.</b></p>
+<br>
+<p>This means that we cannot add a meter and a centimeter together without first converting the two into the same unit. Likewise, we cannot add a Joule and a Tesla together, seeing as they're both completely different units. </p>
+<br>
+<p>The rules for multiplication and division are more lax:</p>
+<br>
+<p align=center><b>Quantities may be multiplied and divided regardless of their unit.</b>
+<br>
+<br>
+<p>A `L` multiplied by an `"atm"` simply becomes a new unit known as the `L*"atm"`. As you encounter more units, you'll discover that most units are just various combinations of different other units multiplied or divided by each other.</p>
+<br>
+<p>Something important to take note of is dividing a unit by itself. This creates a <b>unitless number</b>, which, as the name implies, is a number withouta unit. For example, if you were to were to calculate `(4&nbsp;L)/(2&nbsp;L)`, you would end up with the number 2 since the units of `L` cancel out. </p>
+<br>
+<br>
+
+
+<h7><center>Scientific Notation</center></h7>
+<br>
+<p> While science often times requires a lot of time and work, scientists themselves can be quite lazy. Instead of writing out huge numbers such as 213840000, we express the numbers in <b>scientific notation.</b></p>
+<br>
+<p align=center> `213840000= 2.14*10^8`</p>
+<p> This saves a lot of time and space! Here's how to convert to scientific notation:</p>
+<br>
+  <li><p style="margin-left:40px"><font color=maroon>1. Find the decimal point. If there is no decimal point, Place one where at the far right end of the number.</font></p></li>
+  <li><p style="margin-left:40px"><font color=maroon>2. Move the decimal point one number at a time until there is only one number to the left of it. Count how many times you moved the decimal. This will be your exponent.</font></p></li>
+  <li><p style="margin-left:40px"><font color=maroon>3. If the decimal point started on the left, write the exponent as a negative. If the decimal point started on the right, write the exponent as a positive. The exponent will always be raising base 10.</font></p></li>
+  <br>
+<p>Here are some practice problems:</p>
+<br>
+<p><b>#1. Convert 424000 to scientific notation.</b></p>
+
+    <li><p><font color=darkslategrey>1. Since there is no decimal point, write one at the right of the number: (424000.).</font></p></li>
+    <li><p><font color=darkslategrey>2. Now move the decimal point to the left until there is only one number to the left of it: 4.24000. Count how many times you moved the decimal (5 times)</font></p></li>
+    <li><p><font color=darkslategrey>3. Raise base 10 to this exponent. Since you started on the right, this exponent will be positive.</font></p></li>
+    <br>
+<p align=center> The final answer will be `4.24*10^5`</p>
+
+<p><b>#2. Convert 0.00006924 to scientific notation</b></p>
+<br>
+  <li><p><font color=darkslategrey>1. The decimal point is at the left of the number. Move it one digit at a time until there is only one number to its left. Count how many times you did this (5 times).</font></p></li>
+  <li><p><font color=darkslategrey>2. Since the decimal started on the left, the exponent will be negative. Raise base 10 to this exponent.</font></p></li>
+<br>
+<p align=center>The final answer will be `6.924*10^5`</p>
+<br><br>
+<h7><center>Metric Prefixes</center></h7>
+<br>
+<p>Let's say I was doing an experiment and had 1000000 g (grams) of a particular molecule. Instead of writing that number over and over in my calculations, I can convert it to a smaller version of the unit.. For example, I can convert it to a mg (milligram), or ng (nanogram) in order to save myself some effort. The prefixes deci-, centi-...,nano-...etc allow us to do exactly that. These are called <b>metric prefixes.</b> Here's the scale:</p>
+<br>
+<img class=center src="../images/prefixes.jpg" alt=Prefixes width="90%">
+<br>
+<p>The little letters under the scale are the shorthand way of writing the prefixes e.g a kilometer is written as km. Using this, we can deal represent units as larger or smaller versions of that unit. Let's do an example:</p>
+<br>
+<p><b>#1. Convert 60000L to ML.</b></p>
+<p align=center><font color=darkslategrey>As we see on the scale, M (mega) is the prefix for `10^6`. Therefore, 1 ML (mega-liter) is equal to `10^6L`. The conversion factor is `(1&nbsp;ML)/((10^6&nbsp;L)`.</font></p>
+<p align=center> <font color=darkslategrey>`60000&nbsp;L((1&nbsp;ML)/(10^6&nbsp;L))=0.06&nbsp;ML`</font></p>
+<p>This is certainly a much more manageable number than 60000L was! Metric prefixes simply save us the time of writing out large numbers.</p>
+<br><br>
+<h7><center>International System of Units (SI)</center></h7>
+<br>
+<img class=center src="../images/xkcd-degrees.png" width="80%">
+<br>
+  <p>Due to the number of units, there exists a standard for units to be used in science. In science, we don't use the unit hr (hours), but rather s (seconds) because s has been chosen as the SI unit. The reason this exists is to avoid situations like the one depicted in the above comic. There are 7 fundamental SI units:</p>
+<br>
+    <li><p style="margin-left:40px"><font color=maroon>time: s (seconds)</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> length: m (meters</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> mass: kg (kilogram)</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> electric current: I (ampere)</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> temperature: K (Kelvin)</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> amount: mol (mole)</font></p></li>
+    <li><p style="margin-left:40px"><font color=maroon> luminous intensity: cd (candela)</font></p></li>
+<br>
+  <p> As you continue on through science, you'll undoubtedly come across many different kinds of units. Always remember to convert back to SI units whenever possible, unless stated otherwise! i.e don't write your final answer in `g/(mm)`, write it in `(kg)/m`. In most cases, you'll be using SI units.</p>
+<br><br>
+<h7><center>Summary</center></h7>
+<br>
+    <li><p><font color=blue>Dimensional analysis allows us to convert units between different scales.</font></p></li>
+    <li><p><font color=blue>Converting units does not change the actual value of the unit. If you convert it back to the original unit, the number should be the same</font></p></li>
+    <li><p><font color=blue>Scientific notation lets us write really large or really small numbers in a more efficient way.</font></p></li>
+<br>
+  
+			  
+  
+</div>
+</div>
+		<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+
+			</div>
+		</div>
+	</body>
+</html>
