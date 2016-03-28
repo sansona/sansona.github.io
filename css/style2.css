@@ -115,6 +115,10 @@ table.high
 		background: #70AA7E;
 		color: #FFF !important;
 	}
+	
+table, th, td {
+    border: 1.5px solid black;
+}
 
 	
 	
