@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Half Lives</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML">
+</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-panels.min.js"></script>
+		<script src="../js/init.js"></script>
+
+			<link rel="stylesheet" href="../css/skel-noscript.css" />
+			<link rel="stylesheet" href="../css/style2.css" />
+			<link rel="stylesheet" href="../css/style-desktop.css" />
+
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+
+				<!-- Nav -->
+			 		<nav id="nav">
+					<ul>
+						<li class="active"><a href="../index.html">Homepage</a></li>
+						<li class="active"><a href="integrated-rate-laws.html">Previous Post: Integrated Rate Laws</a></li>
+						<li><a href="rate-determining-steps.html">Next Post: Rate Determining Steps</a></li>
+  
+					</ul>
+					</nav>
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+				  <header>
+					<center><h1><a href="#">Half Lives</a></h1></center>
+					</header>
+					</div>
+					</div>
+					
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+			<p>The <b>half life</b>, often abbreviated as`(t_(1/2))` , is the <b>duration of time for a material to decay 50%.</b> </p>
+		  <br>
+		  <p>Let's mathematically look at the idea of a half-life. Specifically, this example applies only to <font color=red>first order reactions</font>. Imagine you have 100g of a material with a half life of 1 minute. Here's a table showing the amount of material over a period of time.</p>
+		  <br>
+  <table border="3" style="width:100%">
+  <tr>
+    <td align=center><p><b>Time `("min")`</b></p></td>
+    <td align=center><p>`0`</p></td>
+    <td align=center><p>`1`</p></td>
+    <td align=center><p>`2`</p></td>
+    <td align=center><p>`3`</p></td>
+    <td align=center><p>`4`</p></td>
+    <td align=center><p>`5`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p><b>Amount `(g)`</b></p></td>
+    <td align=center><p>`100g`</p></td>
+    <td align=center><p>`50g`</p></td>
+    <td align=center><p>`25g`</p></td>
+    <td align=center><p>`12.5g`</p></td>
+    <td align=center><p>`6.25g`</p></td>
+    <td align=center><p>`3.125g`</p></td>
+  </tr>
+</table>
+      <br>
+      <p>As we can see in the table, every minute that goes by corresponds to 1 half life and thus the amount decreases to 50% what it was before. At 1 minute, we have 50% of the original amount. At 2 minutes (2 half-lives), we have 25%. 3 minutes (3 half-lives), 12.5%, ad nauseum. <font color=red>The amount that decays away is not the same for each half life, only the percentage that decays is</font>.</p>
+      <br>
+      <p>If we were to graph this with amount in grams on the y-axis and time in minutes on the x-axis, we'd get a graph that looks like:</p>
+      <br>
+      <img class=center src="../images/half-life.png" width=70%>
+			<br>
+			<p>All of this is to say that for a first order reaction, the <b>half life does not depend on the amount of material.</b></p>
+			<br>
+			<br>
+			<h7><center>First-Order Decay</center></h7>
+			<br>
+			<p>For first-order decay:</p>
+			<br>
+			<p align=center>`t_(1/2)=0.693/k`</p>
+			<br>
+			<p>Notice that the <b>half life only depends on `k` for a first-order decay</b>. The example above applies to first-order decays, as the half life is independent of concentration. For first-order decay, it doesn't matter whether the starting amount is 100g or 100 million tons - the half life will still be the same.</p>
+			<br>
+			<p>Additionally, here's a convenient formula we can use to calculate the amount of material left:</p>
+			<br>
+			<p align=center>`A=A_0*(1/2)^(t/h)`</p>
+			<br>
+			<p style=margin-left:40px><font color=maroon>`A= "final amount"`</font></p>
+			<p style=margin-left:40px><font color=maroon>`A_0= "initial amount"`</font></p>
+			<p style=margin-left:40px><font color=maroon>`t= "time"`</font></p>
+			<p style=margin-left:40px><font color=maroon>`h= "half-life"`</font></p>
+      <br>
+
+			<p><b>#1. The half life of the C-14 isotope if 5700 years. You find a piece of wood with 40% of the C-14 contained in other living materials. How old is the piece of wood? Assume first-order decay.</b></p>
+			<br>
+			<p align=center><font color=darkslategrey>We can use the formula `A=A_0*(1/2)^(t/h)` to solve for `t` . Rearranging the formula, we get: </font></p>
+			<br>
+			<p align=center><font color=darkslategrey>`t=(-h*("log"(A/(A_0))))/("log"(2))`</font></p>
+			<br>
+			<p align=center><font color=darkslategrey>`t=(-5730*("log"(0.4)))/("log"(2))`</font></p>
+			<br>
+			<p align=center><b>Answer = 7600 years old</b></p>
+			<br>
+			<br>
+			<h7><center>Second-Order Decay</center></h7>
+			<br>
+			<p>For second-order decay:</p>
+			<br>
+			<p align=center>`t_(1/2)=1/(k[A]_0)`</p>
+			<br>
+			<p>For second-order decay, <b>the half life depends both on `k` and the initial concentration.</b> This means that the <font color=red>half life is not constant</font> for a process but changes depending on concentration i.e the first half life will be different from the second, which will be different from the third, etc. In fact, for second-order decay, each half life is double the previous one. If the first half life was 5 minutes, the second will be 10, the third 20, etc. </p>
+			<br>
+			<br>
+			<h7><center>Zeroeth-Order Decay</center></h7>
+			<br>
+			<p>For zeroeth-order decay:</p>
+			<br>
+			<p align=center>`t_(1/2)=[A]_0/(2k)`</p>
+			<br>
+			<p>Just like with second-order decays, <b>the half life of a zeroeth-order decay depends on both `k` and the initial concentration</b>. The difference is that as the initial concentration increases, the half life increases as opposed to with second-order decays, where the half life decreases as concentration increases.</p>
+			<br>
+			<br>
+			<h7><center>Summary</center></h7>
+			<br>
+			<li><p><font color=blue>The half life is the time it takes for a material to decay to 50% of its original amount.</font></p></li>
+			<li><p><font color=blue>For first-order decay, the half life is constant and does not depend on the concentration.</font></p></li>
+			<li><p><font color=blue>For second-order decay, the half life is dependent on both `k` and the initial concentration. The half life increases as the concentration decreases.</font></p></li>
+			<li><p><font color=blue>For zeroeth-order decay, the half life is dependent on both `k` and the initial concentration. The half life will decrease as the initial concentration decreases.</font></p></li>
+			<br>
+			<br>
+			<h7><center>Fun Facts</center></h7>
+			<br>
+			<p><b>#1. C-14 Dating</b></p>
+			<p>C-14 dating utilizes the decay of the carbon-14 isotope in order to determine the age of organic material. The decay reaction involves carbon-14 decaying into a stable nitrogen-14 molecule:</p>
+			<br>
+			<p align=center>`C_6^(14) rArr N_7^(14) + e^-`</p>
+			<br>
+			<p>The amount of the C-14 isotope is approximately 1% of all carbon contained in living things and is constantly being replentished. In other words, the amount of C-14 in the atmosphere has essentially remained constant. Once a being passes, they stop intaking C-14 and thus the amount of C-14 in the body at death remains the amount that will, overtime, decay. By comparing the amount of C-14 in the environment to the amount of C-14 in the corpse, we can accurately determine the age of the specimen. The half life of the C-14 isotope is roughly 5730 years, for reference.</p>
+			<br>
+			<br>
+			<p><b>#2. Uranium-238</b></p>
+			<p>Just like with C-14, we use the amount of U-238 isotope in rocks to determine the age of the rock. The half-life of U-238 is approximately 4500 million years and eventually decays to Pb-206. By comparing the amount of U-238 to the amount of Pb-206, we can accurately determine the age of the rock.</p>
+
+
+		</div>
+		</div>
+		
+				<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+
+
+
+			</div>
+		</div>
+	</body>
+</html>

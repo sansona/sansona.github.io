@@ -66,7 +66,7 @@
     <br>
     <img class="center" src="../images/angular-node.jpg" alt="Axial Node" width="40%">
     <br>
-    <p>The node to the right is called an <b>axial node.</b> This kind of node is a plane or cone.</p>
+    <p>The node to the top is called an <b>axial node.</b> This kind of node is a plane or cone.</p>
     <br>
     <p>It's usually not too difficult to determine if a node is radial or axial. If the node exists only at a certain distance, then it's radial. Otherwise, it's axial. In just a few paragraphs, we'll learn how to figure out how many of each node exists. For now, just know that:</p>
       <p style=margin-left:40px><font color=maroon>1. Nodes are where no `e^-` exist.</font></p>
@@ -123,24 +123,25 @@
 <br>
   <p> With these four properties, we can describe any coin on the grid. To condense these four properties, we can write them as a set of {x, y, color, writing}. For example, if I gave you the set</p>
   <p align=center><b>{3, 2, blue, 0.10}</b>
-  <p> You would know that I was referring to the blue 0.10 coin at (3,2) Note that this set of descriptions can only describe one coin. Related to this, check out the two canadian coins. They're both the same coins, simply at different locations. One is described by {1.5, 1, red, Canada} and the other {4, 2, red, Canada}. Therefore, we can say that <font color=red>coins can share properties, but not all 4 properties.</font></p>
+  <p> You would know that I was referring to the blue 0.10 coin at (3,2) Note that this set of descriptions can only describe one coin. Related to this, check out the two canadian coins. They're both the same coins, but at different locations. One is described by {1.5, 1, red, Canada} and the other {4, 2, red, Canada}. Therefore, we can say that <font color=red>coins can share properties, but not all 4 properties.</font></p>
 <br>
-  <p>Quantum Numbers operate on the same principles, only instead of describing coins, we're describing the `e^-` in a given atom. With the vast number of `e^-` that can exist in an atom, we need some way of distinguishing 1 `e^-` from another. Just like with coins, <font color=red>no two `e^-` in a single atom can have the same set of quantum numbers. Quantum Numbers describe the properties of a single `e^-`.</font> There are 4 quantum numbers for any given `e^-`.</p>
+  <p>Quantum Numbers operate on the same principles, only instead of describing coins, we're describing the `e^-` in a given atom. With the vast number of `e^-` that can exist in an atom, we need some way of distinguishing each electron. Just like with coins, <font color=red>no two `e^-` in a single atom can have the same set of quantum numbers. Quantum Numbers describe the properties of a single `e^-`.</font> There are 4 quantum numbers for any given `e^-`.</p>
+<br>
 <br>
   <h7>#1. Principle `(n)`</h7>
   <p> The Principle quantum number, `n`, tells us the <b>energy level and size</b> of the orbital containing the `e^-`. In other words, the larger the `n`, the higher the energy level, and the larger the orbital itself. Consider the s-orbitals shown:</p>
   <br>
     <img class=center src="../images/radial-nodes.png" alt="Radial Nodes" width="90%">
     <br>
-    <p>The 1s is clearly smaller than the 2s, which is smaller than the 3s. The number in front of the s is the principle quantum number. Revisiting the Aufbau Principle, the 1s orbital should fill before the 2s, which should fill before the 3s. The `e^-` configuration of any atom will show that this is true!</p>
-    <p align=center><i>`1s^2 2s^2`</i>` 2p^6 `<i>`3s^2`</i></p>
+    <p>The 1s is clearly smaller than the 2s, which is smaller than the 3s. The number in front of the s is the principle quantum number. Revisiting the Aufbau Principle, the 1s orbital should fill before the 2s, which should fill before the 3s. The `e^-` configuration of any atom will show that this is true:</p>
+<br>
 <br>
   <h7>#2. Angular Momentum `(l)`</h7>
-  <p> The Angular Momentum quantum number, `l`, tells us the <b>shape/type</b> of the orbital. Recall that we went over 3 different shapes of orbitals:</p>
+  <p> The Angular Momentum quantum number, `l`, tells us the <b>type</b> of orbital. Recall that we went over 3 different types of orbitals: s, p, & d.</p>
   <br>
   <img class=center src="../images/shapes.png" alt="Shapes" width="80%">
   <br>
-  <p>The s-orbitals look like the spherical red one, p-orbitals the dumbbell shaped yellow ones, and d-orbitals the cloverleaf & donut shaped blue ones. The `l` value tells us what shape of orbital the `e^-` we're looking at is in. </p>
+  <p>The s-orbitals look like the spherical red one, p-orbitals the dumbbell shaped yellow ones, and d-orbitals the cloverleaf/donut shaped blue ones. The `l` value tells us what shape of orbital the `e^-` we're looking at is in. </p>
 <br>
     <p style=margin-left:40px><font color=maroon>`l=0` is an s-orbital</font></p>
     <p style=margin-left:40px><font color=maroon>`l=1` is a p-orbital</font></p>
@@ -152,17 +153,18 @@
   <br>
   <p align=center><b>`l=0,1,2...(n-1)`</b></p>
   <br>
-  <p>In other words, the <b>largest the `l` value can be is `n-1`.</b> If you had `n=2`, the `l` could only be equal to `0 and 1`. Since this corresponds to 2s and 2p orbitals, we know that the 2d orbital cannot exist. Similarly for `n=1` the highest the `l` value could be is `n-1`=`0`, therefore `l=0`. Therefore, only the 1s orbital exists; the 1p does not exist before then `l=(n-1)`.</p>
+  <p>In other words, the <b>largest the `l` value can be is `n-1`.</b> If you had `n=2`, the `l` could only be equal to `0 and 1`. Since this corresponds to 2s and 2p orbitals, we know that the 2d orbital cannot exist. Similarly for `n=1` the highest the `l` value could be is `n-1`=`0`, therefore `l=0`. Therefore, at the `n=1` energy level, only the 1s orbital exists. </p>
   <br>
   <p> Note that the `l` value is a series of possible values and not just the `(n-1)` value. For `n=4`, we have `l=0,l=1,l=2`, and `l=3`. This means we have 4s, 4p, 4d, and 4f orbitals!</p>
   <br>
   <p>When doing electron configurations, we noted that the first d-orbital was the `3d`. The angular momentum quantum number explains why this is. In order for a 2d to exist, `n=2` and `l=2`. This violates the relationship and therefore no 2d exists. <b>The first d-orbital is the 3d. The first f-orbital is the 4f.</b> Write out the `n` and `l` quantum numbers to make sure you understand why.</p>
   <br>
+  <br>
   <h7>#3. Magnetic `(m_l)`</h7>
-  <p>The Magnetic quantum number, `m_l`, tells us which specific orbital, out of a set of orbitals, an `e-` is in. The rule for `m_l` is the following:</p>
+  <p>The Magnetic quantum number, `m_l`, tells us which subshell in an orbital an `e-` is in. The rule for `m_l` is the following:</p>
   <br>
   <p align=center>`m_l=-l...0...l`</p>
-  <p align=center> (Those are `l` and not one)</p>
+  <p align=center> (Those are `l`-s and not one)</p>
   <br>
   <p>Let's do an example to help illustrate this.</p>
   <br>
