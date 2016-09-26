@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Symmetry Operations</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML">
+</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-panels.min.js"></script>
+		<script src="../js/init.js"></script>
+
+			<link rel="stylesheet" href="../css/skel-noscript.css" />
+			<link rel="stylesheet" href="../css/style2.css" />
+			<link rel="stylesheet" href="../css/style-desktop.css" />
+
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+
+				<!-- Nav -->
+			 		<nav id="nav">
+					<ul>
+						<li class="active"><a href="../index.html">Homepage</a></li>
+						<li><a href="point-groups.html">Next Post: Point Groups</a></li>
+
+					</ul>
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+				  <header>
+					<center><h1><a href="#">Symmetry Operations</a></h1></center>
+					</header>
+					</div>
+					</div>
+					
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+			<p>Much of chemistry is describing and classifying molecules according to different parameters. Symmetry is one of these parameters, and describing a molecule in terms of its symmetry allows for unique insight on the behavior of the molecule.</p>
+			<br>
+			<p>A <b>symmetry operation</b> is an operation done to a molecule, similar to how mathematical operations (addition, subtraction, etc) are done to numbers. If a molecule's initial and final states are indistinguishable after performing the operation, the molecule is said to be symmetric with respect to that operation. </p>
+			<br>
+			<p>A great website to practice  symmetry on is provided by Otterbein University:</p>
+			<br>
+			<center><a href="http://symmetry.otterbein.edu">Symmetry Resources</a></center>
+			<br>
+			<p>There are 5 symmetry operations:</p>
+			<br>
+			<br>
+			<h7><center>Identity `(E)`</center></h7>
+			<br>
+			<p>The <b>identity operation `(E)`</b> is the symmetry operation equivalent of multiplying by 1. For example:</p>
+			<br>
+			<img class=center src="../images/e.png" width=60%>
+			<br>
+			<p>The initial and final molecules look identical because the identity operation essentially does nothing. <b>All molecules are symmetric with respect to the identity operation.</b></p>
+			<br>
+			<br>
+			<h7><center>Inversion `(i)`</center></h7>
+			<br>
+			<p>The <b>inversion operation `(i)`</b> involves inverting the molecule through a point in the middle of the molecule. Imagine that the molecule `H_2CO` was plotted on a 3D coordinate axis with each atom having an (x,y,z) coordinate description. Once the molecule undergoes the inversion operation, each atom's coordinate description becomes the negative i.e (1,2,3) becomes (-1,-2,-3). This is what that looks like: </p>
+			<br>
+			<img class=center src="../images/i.png" width=60%>
+			<br>
+			<p>As we can see, the before and after molecules are different. As such, this molecule is said to not possess inversion symmetry.</p>
+			<br>
+			<p>One important thing to note is that, in inversion symmetry, atoms that are initially coming out of the page will end up being inside the page and vice versa. For example:</p>
+			<br>
+			<img class=center src="../images/i2.png" width=80%>
+			<br>
+			<p>If it weren't for the labels on the hydrogens, the molecule would look identical before and after the operation. Thus, we can say that this molecule possesses inversion symmetry.</p>
+			<br>
+			<br>
+			<h7><center>Rotation `(C_n)`</center></h7>
+			<br>
+			<p>The <b>rotation operation `(C_n)`</b> involves rotation around a specific axis. The direction of rotation, by convention, is counterclockwise, and the angle of rotation is `(360&deg;)/n` . A `C_6` is therefore a `60&deg;` rotation, `C_4` a `90&deg;` rotation, and `C_3` `120&deg;` . Unlike the identity and inversion operations however, a molecule can have multiple rotation symmetries i.e a single molecule can possess `C_6, C_4` , and `C_3` symmetries.</p>
+			<br>
+			<p>Successive rotation operations can be often be defined as a single rotation. For example, three successive `C_6` rotations is equivalent to a single `C_3` . Notice that 6 consecutive `C_6 ` operations is equivalent o `E` , the identity operation. </p>
+			<br>
+  <table border="3" style="width:100%">
+  <tr>
+    <td align=center><b>Angle of Rotation</b></td>
+    <td align=center><b>Corresponding Symmetry Operations</b></td>
+  </tr>
+  <tr>
+    <td align=center><p>60&deg;</p></td>
+    <td align=center><p>`C_6`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p>120&deg;</p></td>
+    <td align=center><p>2 `C_6` or `C_3`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p>180&deg;</p></td>
+    <td align=center><p>3 `C_6` or `C_2`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p>240&deg;</p></td>
+    <td align=center><p>4 `C_6` or 2 `C_3`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p>300&deg;</p></td>
+    <td align=center><p>5 `C_6`</p></td>
+  </tr>
+  <tr>
+    <td align=center><p>360&deg;</p></td>
+    <td align=center><p>6 `C_6`</p></td>
+  </tr>
+</table>
+  <br>
+  <p>If we had a 6 pointed star and drew an imaginary line through two of the points, we could perform a `C_2` rotation:</p>
+  <br>
+  <img class=center src="../images/rotation1.png" width=60%>
+  <br>
+  <p>Similarly, if we took the same star and drew an imaginary line in the point between two points, we also have `C_2` symmetry there: </p>
+  <br>
+  <img class=center src="../images/rotation2.png" width=60%>
+  <br>
+  <p>The final axis one should pay attention to is right through the center of the star. If rotation is operated on the axis in the center of the star, one gets `C_2`,`C_3`, and `C_6` symmetries:</p>
+  <br>
+  <img class=center src="../images/rotation3.png" width=60%>
+  <br>
+  <img class=center src="../images/rotation4.png" width=60%>
+  <br>
+  <img class=center src="../images/rotation5.png" width=60%>
+  <br>
+  <p>Thus, we can say that the 6 pointed star has a 3 `C_2` via. the first axis, 3 `C_2` via. the second, 1 `C_2`, 1 `C_3`, and 1 `C_6` through the center for a total of 8 rotational symmetries.</p>
+  <br>
+  <p>The <b>highest order rotational axis</b>, also called the <b>principle axis</b>, is the axis corresponding to the highest `n` . In this case, the `C_6` axis through the center of the star is the highest order rotational axis.</p>
+  <br>
+  <br>
+  <h7><center>Reflection `(&sigma;)`</center></h7>
+  <br>
+  <p>For a molecule to possess <b>symmetry by reflection</b>, the molecule must possess a <b>mirror plane</b> somewhere Consider a butterfly:</p>
+  <br>
+  <img class=center src="../images/reflection-butterfly.png" width=60%>
+  <br>
+  <p>Through the mirror plane in the center, the butterfly is symmetric on both sides.</p>
+  <br>
+  <p>A molecule such as `BF_3` has multiple mirror planes and thus possesses symmetry by reflection</p>
+  <br>
+  <img class=center src="../images/reflection.png" width=25%>
+  <br>
+  <p>If the mirror plane is parallel to the principle rotation axis, it is called a verticle plane and is denoted `&sigma;_v` . Conversely, if the mirror plane is perpendicular to the principle rotation axis, it is a horizontal plane and is denoted `&sigma;_h`.</p>
+  <br>
+  <p>Linear molecules sometimes have an infinite number of mirror planes. Consider the axis along the triple bond of the acetylene molecule:</p>
+  <br>
+  <img class=center src="../images/reflection2.png" width=40%>
+  <br>
+  <p>There are an infinite amount of mirror planes that can fit alongside that axis. These are a unique case which will be categorized in the next post.</p>
+  <br>
+  <br>
+  <h7><center>Improper Rotation `(S_n)`</center></h7>
+  <br>
+  <p>The <b>improper rotation `(S_n)`</b>, sometimes called a <b>roto-reflection</b>, is a combination of a rotation `(C_n)` followed by a horizontal reflection `(&sigma;_h)` along that axis. `C_2H_6` is an example of a molecule that contains an improper rotation symmetry:</p>
+  <br>
+  <img class=center src="../images/improperrotation.png" width=70%>
+  <br>
+  <p>Improper rotations can be difficult to visualize and/or identify. The best way to become comfortable with them is to look at a large number of them.</p>
+
+			
+			  
+
+			 </div>
+			 </div>
+			 </nav>
+		<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+
+			</div>
+		</div>
+	</body>
+</html>
